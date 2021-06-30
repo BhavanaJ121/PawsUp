@@ -15,15 +15,194 @@
                     <view key="view" contentMode="scaleToFill" id="WyO-LX-KuB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ASb-Mx-WAJ">
+                                <rect key="frame" x="75" y="244" width="100" height="100"/>
+                                <state key="normal" backgroundImage="DOG"/>
+                                <connections>
+                                    <segue destination="L1c-Ur-e1w" kind="show" id="JaB-wf-nCC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xXa-Ue-nzf">
+                                <rect key="frame" x="239" y="244" width="100" height="119"/>
+                                <state key="normal" backgroundImage="Screen Shot 2021-06-30 at 11.29.27 AM"/>
+                                <connections>
+                                    <segue destination="L1c-Ur-e1w" kind="show" id="L5o-Us-gHA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gi2-hP-D9Y">
+                                <rect key="frame" x="75" y="544" width="100" height="94"/>
+                                <state key="normal" backgroundImage="Screen Shot 2021-06-30 at 11.32.11 AM"/>
+                                <connections>
+                                    <segue destination="L1c-Ur-e1w" kind="show" id="lyY-gQ-fxb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ado-o8-VhB">
+                                <rect key="frame" x="231" y="543" width="108" height="95"/>
+                                <state key="normal" backgroundImage="Screen Shot 2021-06-30 at 11.33.33 AM"/>
+                                <connections>
+                                    <segue destination="L1c-Ur-e1w" kind="show" id="QBP-hz-ll7"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="A1x-Cz-1mz"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="A1x-Cz-1mz" firstAttribute="trailing" secondItem="xXa-Ue-nzf" secondAttribute="trailing" constant="75" id="3H8-mV-PiJ"/>
+                            <constraint firstItem="ASb-Mx-WAJ" firstAttribute="top" secondItem="A1x-Cz-1mz" secondAttribute="top" constant="200" id="3b0-uW-j9d"/>
+                            <constraint firstItem="Ado-o8-VhB" firstAttribute="top" secondItem="xXa-Ue-nzf" secondAttribute="bottom" constant="180" id="6Fr-bd-eiS"/>
+                            <constraint firstItem="xXa-Ue-nzf" firstAttribute="top" secondItem="A1x-Cz-1mz" secondAttribute="top" constant="200" id="AWj-2e-1WQ"/>
+                            <constraint firstItem="A1x-Cz-1mz" firstAttribute="trailing" secondItem="Ado-o8-VhB" secondAttribute="trailing" constant="75" id="HS0-yu-qLc"/>
+                            <constraint firstItem="ASb-Mx-WAJ" firstAttribute="leading" secondItem="A1x-Cz-1mz" secondAttribute="leading" constant="75" id="SFW-Xa-7jH"/>
+                            <constraint firstItem="gi2-hP-D9Y" firstAttribute="leading" secondItem="A1x-Cz-1mz" secondAttribute="leading" constant="75" id="SHD-rB-cFt"/>
+                            <constraint firstItem="gi2-hP-D9Y" firstAttribute="top" secondItem="ASb-Mx-WAJ" secondAttribute="bottom" constant="200" id="eh6-4v-5XV"/>
+                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Adoption" id="a1D-Vx-pUq"/>
+                    <tabBarItem key="tabBarItem" title="Adoption" image="Screen Shot 2021-06-30 at 11.13.01 AM" id="a1D-Vx-pUq"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r9d-ey-ZVS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="618" y="75"/>
+            <point key="canvasLocation" x="617" y="128"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="CIb-zd-B6j">
+            <objects>
+                <viewController id="L1c-Ur-e1w" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4b7-LO-b3R">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="o63-Pg-hq6"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="bg1-28-j4D"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CbZ-sT-9cU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="617" y="775"/>
+        </scene>
+        <!--Caretaking-->
+        <scene sceneID="Nps-1F-BaJ">
+            <objects>
+                <viewController id="gFv-ii-XqG" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Sim-p3-s9D">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u0O-C7-7gv">
+                                <rect key="frame" x="75" y="244" width="100" height="100"/>
+                                <state key="normal" backgroundImage="DOG"/>
+                                <connections>
+                                    <segue destination="Kfk-ol-vcg" kind="show" id="wRo-Ix-cEQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="60f-4g-ECw">
+                                <rect key="frame" x="239" y="244" width="100" height="119"/>
+                                <state key="normal" backgroundImage="Screen Shot 2021-06-30 at 11.29.27 AM"/>
+                                <connections>
+                                    <segue destination="Kfk-ol-vcg" kind="show" id="3Xe-oZ-Xyc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="peG-TR-aer">
+                                <rect key="frame" x="75" y="544" width="100" height="94"/>
+                                <state key="normal" backgroundImage="Screen Shot 2021-06-30 at 11.32.11 AM"/>
+                                <connections>
+                                    <segue destination="Kfk-ol-vcg" kind="show" id="pog-r5-nkt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B4U-P8-QH2">
+                                <rect key="frame" x="231" y="543" width="108" height="95"/>
+                                <state key="normal" backgroundImage="Screen Shot 2021-06-30 at 11.33.33 AM"/>
+                                <connections>
+                                    <segue destination="Kfk-ol-vcg" kind="show" id="Xxd-aK-y1m"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="k5E-AP-R3r"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="peG-TR-aer" firstAttribute="top" secondItem="u0O-C7-7gv" secondAttribute="bottom" constant="200" id="4Ru-kz-Foo"/>
+                            <constraint firstItem="peG-TR-aer" firstAttribute="leading" secondItem="k5E-AP-R3r" secondAttribute="leading" constant="75" id="87U-3A-35X"/>
+                            <constraint firstItem="u0O-C7-7gv" firstAttribute="leading" secondItem="k5E-AP-R3r" secondAttribute="leading" constant="75" id="Ain-KG-5Hb"/>
+                            <constraint firstItem="u0O-C7-7gv" firstAttribute="top" secondItem="k5E-AP-R3r" secondAttribute="top" constant="200" id="BjG-84-Wsn"/>
+                            <constraint firstItem="B4U-P8-QH2" firstAttribute="top" secondItem="60f-4g-ECw" secondAttribute="bottom" constant="180" id="O6r-hR-ARS"/>
+                            <constraint firstItem="k5E-AP-R3r" firstAttribute="trailing" secondItem="B4U-P8-QH2" secondAttribute="trailing" constant="75" id="P9L-68-fxh"/>
+                            <constraint firstItem="60f-4g-ECw" firstAttribute="top" secondItem="k5E-AP-R3r" secondAttribute="top" constant="200" id="PEj-C2-MIh"/>
+                            <constraint firstItem="k5E-AP-R3r" firstAttribute="trailing" secondItem="60f-4g-ECw" secondAttribute="trailing" constant="75" id="bcY-7s-qlR"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Caretaking" image="Screen Shot 2021-06-30 at 11.16.28 AM" id="WKM-t4-vhU"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v8V-2Y-GE6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1295.6521739130435" y="-530.35714285714289"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="5QI-aS-saG">
+            <objects>
+                <viewController id="jfG-d3-zlF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wFp-8J-iyK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="e1K-9R-Vk2"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="paw" id="dvE-in-ez2"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gOz-bN-d4V" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2006" y="-212"/>
+        </scene>
+        <!--Schedule-->
+        <scene sceneID="Wov-do-wvA">
+            <objects>
+                <viewController id="qjX-f0-yzH" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FfU-yH-jRA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="M6i-4a-j9f"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Schedule" image="Screen Shot 2021-06-30 at 11.15.15 AM" id="CvT-pi-9DY"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tke-bE-P5n" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1296" y="128"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="i7p-VB-m6w">
+            <objects>
+                <viewController id="jXb-kw-KcI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5Bd-2t-u6G">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="77G-us-rSE"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="EoX-Qq-Q3I"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EaY-u5-r3K" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="616" y="-1192"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="dhJ-n4-TBp">
+            <objects>
+                <viewController id="Kfk-ol-vcg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="d64-CT-x6J">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="tNy-fr-JAJ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Se2-o3-cna"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tWO-sQ-ggn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1296" y="-1193"/>
         </scene>
         <!--Basic Info-->
         <scene sceneID="Cqz-9v-XBP">
@@ -32,15 +211,55 @@
                     <view key="view" contentMode="scaleToFill" id="9mN-Jz-KQo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9oB-Ay-KGg">
+                                <rect key="frame" x="75" y="244" width="100" height="100"/>
+                                <state key="normal" image="DOG"/>
+                                <connections>
+                                    <segue destination="jXb-kw-KcI" kind="show" id="qyb-AV-L6u"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="01m-6m-Ix6">
+                                <rect key="frame" x="75" y="544" width="100" height="94"/>
+                                <state key="normal" backgroundImage="Screen Shot 2021-06-30 at 11.32.11 AM"/>
+                                <connections>
+                                    <segue destination="jXb-kw-KcI" kind="show" id="feo-LT-cJj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0bC-p0-epY">
+                                <rect key="frame" x="231" y="543" width="108" height="95"/>
+                                <state key="normal" backgroundImage="Screen Shot 2021-06-30 at 11.33.33 AM"/>
+                                <connections>
+                                    <segue destination="jXb-kw-KcI" kind="show" id="GbE-mH-ySs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Vy-V2-cBW">
+                                <rect key="frame" x="239" y="244" width="100" height="119"/>
+                                <state key="normal" backgroundImage="Screen Shot 2021-06-30 at 11.29.27 AM"/>
+                                <connections>
+                                    <segue destination="jXb-kw-KcI" kind="show" id="i4r-U0-DAA"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="X3C-4B-kJV"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="0bC-p0-epY" firstAttribute="top" secondItem="1Vy-V2-cBW" secondAttribute="bottom" constant="180" id="D3U-g8-7f0"/>
+                            <constraint firstItem="01m-6m-Ix6" firstAttribute="top" secondItem="9oB-Ay-KGg" secondAttribute="bottom" constant="200" id="L1J-qa-d53"/>
+                            <constraint firstItem="9oB-Ay-KGg" firstAttribute="top" secondItem="X3C-4B-kJV" secondAttribute="top" constant="200" id="XjH-iv-qVG"/>
+                            <constraint firstItem="X3C-4B-kJV" firstAttribute="trailing" secondItem="0bC-p0-epY" secondAttribute="trailing" constant="75" id="bEJ-hR-IK4"/>
+                            <constraint firstItem="01m-6m-Ix6" firstAttribute="leading" secondItem="X3C-4B-kJV" secondAttribute="leading" constant="75" id="dnj-Tt-YX1"/>
+                            <constraint firstItem="X3C-4B-kJV" firstAttribute="trailing" secondItem="1Vy-V2-cBW" secondAttribute="trailing" constant="75" id="jog-1u-uCC"/>
+                            <constraint firstItem="1Vy-V2-cBW" firstAttribute="top" secondItem="X3C-4B-kJV" secondAttribute="top" constant="200" id="kOP-6m-S8X"/>
+                            <constraint firstItem="9oB-Ay-KGg" firstAttribute="leading" secondItem="X3C-4B-kJV" secondAttribute="leading" constant="75" id="sHw-aq-wMC"/>
+                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Basic Info" id="izf-9M-p1l"/>
+                    <tabBarItem key="tabBarItem" title="Basic Info" image="info" catalog="system" id="izf-9M-p1l"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RrT-4A-ZOm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="618" y="-530"/>
+            <point key="canvasLocation" x="617.39130434782612" y="-530.35714285714289"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="21Q-sN-1ez">
@@ -49,62 +268,40 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="7TG-vQ-c7z">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="tertiarySystemBackgroundColor"/>
                     </tabBar>
                     <connections>
                         <segue destination="3Cq-St-rC3" kind="relationship" relationship="viewControllers" id="omS-jC-AlY"/>
-                        <segue destination="gds-va-txo" kind="relationship" relationship="viewControllers" id="CGb-Vw-vY4"/>
                         <segue destination="a2n-eL-sWh" kind="relationship" relationship="viewControllers" id="mrK-Ou-dZp"/>
-                        <segue destination="gds-va-txo" kind="relationship" relationship="viewControllers" id="skk-X5-0UH"/>
+                        <segue destination="jfG-d3-zlF" kind="relationship" relationship="viewControllers" id="odS-9d-R7B"/>
+                        <segue destination="gFv-ii-XqG" kind="relationship" relationship="viewControllers" id="ela-Hv-Y9A"/>
+                        <segue destination="qjX-f0-yzH" kind="relationship" relationship="viewControllers" id="VZV-8o-L9i"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h9R-xR-V3d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-271" y="-227"/>
         </scene>
-        <!--Caretaking-->
-        <scene sceneID="Nl7-jX-jMc">
-            <objects>
-                <viewController title="Caretaking" id="gds-va-txo" customClass="ViewController" customModule="PawsUp" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="LV4-41-xhw">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jhq-1f-Ttg">
-                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem title="Basic Info" id="VM5-lo-tbe"/>
-                                    <tabBarItem title="Adoption" id="sTr-bY-AE5"/>
-                                    <tabBarItem title="Home" id="PCK-zM-SUU"/>
-                                    <tabBarItem title="Caretaking" id="oQN-Fa-Jt0"/>
-                                    <tabBarItem title="Schedule" id="cuB-ac-bzO"/>
-                                </items>
-                            </tabBar>
-                            <view contentMode="scaleToFill" id="o2x-og-JR6">
-                                <rect key="frame" x="30" y="-321" width="414" height="896"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <viewLayoutGuide key="safeArea" id="70s-hN-Qgb"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                            </view>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="iIe-v8-Ai9"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="xsO-2I-KJl"/>
-                    <navigationItem key="navigationItem" id="XIl-ER-hnM"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Hg0-Xy-Zo6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="617" y="727"/>
-        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="CGb-Vw-vY4"/>
+        <segue reference="pog-r5-nkt"/>
+        <segue reference="feo-LT-cJj"/>
+        <segue reference="lyY-gQ-fxb"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="DOG" width="100" height="100"/>
+        <image name="Screen Shot 2021-06-30 at 11.13.01 AM" width="30" height="25"/>
+        <image name="Screen Shot 2021-06-30 at 11.15.15 AM" width="30" height="25"/>
+        <image name="Screen Shot 2021-06-30 at 11.16.28 AM" width="30" height="25"/>
+        <image name="Screen Shot 2021-06-30 at 11.29.27 AM" width="100" height="119"/>
+        <image name="Screen Shot 2021-06-30 at 11.32.11 AM" width="100" height="94"/>
+        <image name="Screen Shot 2021-06-30 at 11.33.33 AM" width="108" height="95"/>
+        <image name="info" catalog="system" width="93" height="128"/>
+        <image name="paw" width="25" height="23"/>
         <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tertiarySystemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>
