@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35044F80268E1CD500980EDE /* adoptionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35044F7F268E1CD500980EDE /* adoptionVC.swift */; };
+		357DFF94268E0A2C0042579E /* ScheduleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357DFF8E268E0A2B0042579E /* ScheduleTableViewController.swift */; };
+		357DFF97268E0A2C0042579E /* RemoveScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357DFF91268E0A2C0042579E /* RemoveScheduleViewController.swift */; };
+		357DFF98268E0A2C0042579E /* AddScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357DFF92268E0A2C0042579E /* AddScheduleViewController.swift */; };
+		357DFF99268E0A2C0042579E /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357DFF93268E0A2C0042579E /* Schedule.swift */; };
 		83112572268B995D00C81104 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83112571268B995D00C81104 /* AppDelegate.swift */; };
 		83112574268B995D00C81104 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83112573268B995D00C81104 /* SceneDelegate.swift */; };
 		83112576268B995D00C81104 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83112575268B995D00C81104 /* ViewController.swift */; };
@@ -17,6 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		35044F7F268E1CD500980EDE /* adoptionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = adoptionVC.swift; sourceTree = "<group>"; };
+		357DFF8E268E0A2B0042579E /* ScheduleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScheduleTableViewController.swift; path = ../../ToDoList/ToDoList/ScheduleTableViewController.swift; sourceTree = "<group>"; };
+		357DFF91268E0A2C0042579E /* RemoveScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RemoveScheduleViewController.swift; path = ../../ToDoList/ToDoList/RemoveScheduleViewController.swift; sourceTree = "<group>"; };
+		357DFF92268E0A2C0042579E /* AddScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddScheduleViewController.swift; path = ../../ToDoList/ToDoList/AddScheduleViewController.swift; sourceTree = "<group>"; };
+		357DFF93268E0A2C0042579E /* Schedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Schedule.swift; path = ../../ToDoList/ToDoList/Schedule.swift; sourceTree = "<group>"; };
 		8311256E268B995D00C81104 /* PawsUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PawsUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83112571268B995D00C81104 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83112573268B995D00C81104 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,9 +68,14 @@
 		83112570268B995D00C81104 /* PawsUp */ = {
 			isa = PBXGroup;
 			children = (
+				35044F7F268E1CD500980EDE /* adoptionVC.swift */,
+				357DFF92268E0A2C0042579E /* AddScheduleViewController.swift */,
 				83112571268B995D00C81104 /* AppDelegate.swift */,
+				357DFF91268E0A2C0042579E /* RemoveScheduleViewController.swift */,
 				83112573268B995D00C81104 /* SceneDelegate.swift */,
 				83112575268B995D00C81104 /* ViewController.swift */,
+				357DFF93268E0A2C0042579E /* Schedule.swift */,
+				357DFF8E268E0A2B0042579E /* ScheduleTableViewController.swift */,
 				83112577268B995D00C81104 /* Main.storyboard */,
 				8311257D268B996200C81104 /* Assets.xcassets */,
 				8311257F268B996200C81104 /* LaunchScreen.storyboard */,
@@ -140,10 +155,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				357DFF99268E0A2C0042579E /* Schedule.swift in Sources */,
+				357DFF97268E0A2C0042579E /* RemoveScheduleViewController.swift in Sources */,
 				83112576268B995D00C81104 /* ViewController.swift in Sources */,
+				357DFF98268E0A2C0042579E /* AddScheduleViewController.swift in Sources */,
 				83112572268B995D00C81104 /* AppDelegate.swift in Sources */,
 				83112574268B995D00C81104 /* SceneDelegate.swift in Sources */,
 				8311257C268B995D00C81104 /* PawsUp.xcdatamodeld in Sources */,
+				35044F80268E1CD500980EDE /* adoptionVC.swift in Sources */,
+				357DFF94268E0A2C0042579E /* ScheduleTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +240,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -275,7 +295,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -291,6 +311,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CR6938T2S4;
 				INFOPLIST_FILE = PawsUp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -309,6 +330,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CR6938T2S4;
 				INFOPLIST_FILE = PawsUp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
