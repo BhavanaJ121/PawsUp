@@ -16,9 +16,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     
-    let myURL = URL(string:"  https://www.petfinder.com/search/dogs-for-adoption/us/nc/cary/")
-    let myRequest = URLRequest(url: myURL!)
-    dogWV.load(myRequest)
+    //let myURL = URL(string:"  https://www.petfinder.com/search/dogs-for-adoption/us/nc/cary/")!
+    //let myRequest = URLRequest(url: myURL)
+    //dogWV.load(myRequest)
 }
 }
 

@@ -19,6 +19,7 @@
 		8311257C268B995D00C81104 /* PawsUp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8311257A268B995D00C81104 /* PawsUp.xcdatamodeld */; };
 		8311257E268B996200C81104 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8311257D268B996200C81104 /* Assets.xcassets */; };
 		83112581268B996200C81104 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8311257F268B996200C81104 /* LaunchScreen.storyboard */; };
+		8311258D268EA08300C81104 /* BasicInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8311258C268EA08300C81104 /* BasicInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		8311257D268B996200C81104 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83112580268B996200C81104 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83112582268B996200C81104 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8311258C268EA08300C81104 /* BasicInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				8311257F268B996200C81104 /* LaunchScreen.storyboard */,
 				83112582268B996200C81104 /* Info.plist */,
 				8311257A268B995D00C81104 /* PawsUp.xcdatamodeld */,
+				8311258C268EA08300C81104 /* BasicInfoViewController.swift */,
 			);
 			path = PawsUp;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 				83112576268B995D00C81104 /* ViewController.swift in Sources */,
 				357DFF98268E0A2C0042579E /* AddScheduleViewController.swift in Sources */,
 				83112572268B995D00C81104 /* AppDelegate.swift in Sources */,
+				8311258D268EA08300C81104 /* BasicInfoViewController.swift in Sources */,
 				83112574268B995D00C81104 /* SceneDelegate.swift in Sources */,
 				35044F88268E3F1700980EDE /* DogAdoptViewController.swift in Sources */,
 				8311257C268B995D00C81104 /* PawsUp.xcdatamodeld in Sources */,
