@@ -8,6 +8,9 @@
 import UIKit
 
 class BasicInfoViewController: UIViewController {
+    
+    //var nextVC = InfoBasicViewController()
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,7 +18,25 @@ class BasicInfoViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    /*
+    @IBAction func dogButtonTapped(_ sender: Any) {
+        nextVC.animalName.text! = "Dog"
+    }
+    
+    @IBAction func catButtonTapped(_ sender: Any) {
+        nextVC.animalName.text = "Cat"
+        
+    }
+    
+    @IBAction func hamsterButtonTapped(_ sender: Any) {
+        nextVC.animalName.text = "Hamster"
+    }
+    
+    @IBAction func rabbitButtonTapped(_ sender: Any) {
+        nextVC.animalName.text = "Rabbit"
+    }
+ */
+    
     /*
     // MARK: - Navigation
 
